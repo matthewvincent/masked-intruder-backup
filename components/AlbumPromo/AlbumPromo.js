@@ -21,7 +21,7 @@ const AlbumPromo = () => (
       </iframe>
     </AlbumTeaser>
 	  <div className="release-info">
-	    <h1>IN STORES JULY 8, 2016</h1>
+	    <h1>LOVE AND OTHER CRIMES</h1>
 	    <PreorderButton
 	  	  link="http://smarturl.it/Masked" 
 	    > BUY CD/EP
