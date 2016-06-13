@@ -1,0 +1,106 @@
+@import '../variables.scss';
+
+.spotify-link {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  display: block;
+  margin-top: 100px;
+  margin-bottom: -160px;
+  cursor: pointer;
+  opacity: .7;
+  transition: opacity .2s;
+  
+  &:hover {
+    opacity: 1;
+  }
+
+  i {
+    color: #81b71a;
+    margin-left: 5px;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  
+  .header-logo {
+    width: 400px;
+    margin-top: 10px;
+  }
+
+  .spotify-link {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+  }
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+  .header-logo {
+    width: 700px;
+  }
+
+  .spotify-link {
+    margin-top: 40px;
+    margin-bottom: -40px;
+  }
+}
+
+/* Partial Window Desktop ----------- */
+@media only screen  and (min-width : 769px) {
+
+  .header-logo {
+    width: 800px;
+  }
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+
+  .header-logo {
+    width: 880px;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+
+  .header-logo {
+    width: 1080px;
+  }
+}
+
+
+/* iPhone 5 ----------- */
+
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+  .header-logo {
+    width: 300px;
+  }
+}
+
+/* iPhone 6 ----------- */
+
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+
+  .header-logo {
+    width: 300px;
+  }
+}
+
+/* iPhone 6+ ----------- */
+
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+
+
+}
+

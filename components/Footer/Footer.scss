@@ -1,0 +1,71 @@
+@import '../variables.scss';
+
+.social-wrapper {
+	text-align: left;
+	padding-top: 20px;
+}
+
+.social-list {
+
+	a {
+		font-size: 30px;
+		margin: 15px;
+		transition: opacity .3s ease;
+
+		&:hover {
+			opacity: .5;
+		}
+	}
+}
+
+.fa-facebook {
+	color: #3b5998;
+}
+
+.fa-tumblr {
+	color: #32506d;
+}
+
+.fa-twitter {
+	color: #00aced;
+}
+
+.fa-instagram {
+	color: #517fa4;
+}
+
+.footer {
+	height: 100px;
+	margin-top: -20px;
+	background-color: rgba(255,255,255, 1);
+}
+
+.mobile-footer {
+	margin-top: 0px;
+	bottom: 0;
+	height: 85px;
+	background-color: rgba(255,255,255,.5);
+}
+
+/* iphone 6+ */
+@media only screen and (max-device-width: 736px) { 
+
+	.social-wrapper {
+		text-align: center;
+		padding-top: 12px;
+		margin-right: 13%;
+	}
+
+  	.social-list {
+
+		a {
+			font-size: 24px;
+			margin: 15px;
+			transition: opacity .3s ease;
+
+			&:hover {
+				opacity: .5;
+			}
+		}
+	}
+}

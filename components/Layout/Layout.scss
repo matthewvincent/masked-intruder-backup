@@ -1,0 +1,38 @@
+/**
+ * React Static Boilerplate
+ * https://github.com/koistya/react-static-boilerplate
+ * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
+ */
+
+@import '../variables.scss';
+
+@font-face {
+  font-family: 'Cooper Std';
+  src: url('../../static/CooperBlack/CooperBlackStd.eot');
+  src: url('../../static/CooperBlack/CooperBlackStd.eot?#iefix') format('embedded-opentype'),
+    url('../../static/CooperBlack/CooperBlackStd.woff') format('woff'),
+    url('../../static/CooperBlack/CooperBlackStd.ttf') format('truetype'),
+    url('../../static/CooperBlack/CooperBlackStd.svg#CooperBlackStd') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: $body-bg;
+  background-repeat: no-repeat cover;
+  background-attachment: fixed;
+  color: $text-color;
+  font-family: $font-family-base;
+}
+
+.layout {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+}
+

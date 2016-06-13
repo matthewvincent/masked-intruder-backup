@@ -1,0 +1,80 @@
+@import '../variables.scss';
+
+.tour {
+  text-align: center;
+}
+
+.tour-dates-wrapper {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.tour-dates-wrapper a {
+  color: white;
+}
+
+.tour-header {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  margin: auto;
+  margin-top: -100px;
+  text-align: center;
+
+  h1 {
+    font-size: 40px;
+    color: #e08db1;
+    background: $gradient-text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+
+/* iphone 5 */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (min-device-pixel-ratio: 2) {
+
+    .tour-dates-wrapper {
+      overflow: scroll;
+    }
+
+    .tour-header {
+      margin-bottom: 40px;
+      margin-top: 0px;
+    }
+ 
+}
+
+/* iphone 6 */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) { 
+
+
+}
+
+/* iphone 6+ */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) { 
+
+
+
+    .tour-dates-wrapper {
+      margin-top: 100px;
+      margin-bottom: 20px;
+    }
+
+}
+
+/* ipad */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+
+
+
+}

@@ -1,0 +1,5 @@
+{
+  "private": true,
+  "name": "TourDates",
+  "main": "./TourDates.js"
+}

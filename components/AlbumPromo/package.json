@@ -1,0 +1,5 @@
+{
+  "private": true,
+  "name": "AlbumPromo",
+  "main": "./AlbumPromo.js"
+}
