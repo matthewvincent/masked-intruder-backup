@@ -44,7 +44,7 @@ const AlbumArt = () => (
     <div className="album-title">
       <h2>NEW EP</h2>
       <h1>LOVE AND OTHER CRIMES</h1>
-      <h2>OUT 07.08.2016</h2>
+      <h2>OUT NOW</h2>
     </div>
   </div>
 );
